@@ -119,4 +119,24 @@
     <servlet-name>SessionServlet5</servlet-name>
     <url-pattern>/SessionServlet5</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>JstlServlet</display-name>
+    <servlet-name>JstlServlet</servlet-name>
+    <servlet-class>com.lti.servlets.JstlServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>JstlServlet</servlet-name>
+    <url-pattern>/JstlServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>AddRecords</display-name>
+    <servlet-name>AddRecords</servlet-name>
+    <servlet-class>com.lti.servlets.AddRecords</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddRecords</servlet-name>
+    <url-pattern>/AddRecords</url-pattern>
+  </servlet-mapping>
 </web-app>

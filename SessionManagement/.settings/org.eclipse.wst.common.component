@@ -2,7 +2,10 @@
     <wb-module deploy-name="SessionManagement">
         <wb-resource deploy-path="/" source-path="/web" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
-        <dependent-module archiveName="jstl.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/D:/Shaggy/jstl.jar">
+        <dependent-module archiveName="jstl-1.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/D:/Shaggy/jstl-1.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ojdbc14.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/D:/Shaggy/Driver/ojdbc14.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
         <property name="context-root" value="SessionManagement"/>
